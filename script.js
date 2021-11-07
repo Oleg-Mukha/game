@@ -53,7 +53,7 @@ function resetGame(){
  if(chooseEnemy == 3){
    document.getElementById("avatar-bot").src="img/shiba/defaultShiba.gif";
  }
- document.getElementById("avatar-player").src="img/playerHero/defaultPug.gif";
+ document.getElementById("avatar-player").src="img/playerHero/defaultCorgi.gif";
 
  document.getElementById('card-player').classList.add('shakeAnimPlayer');
  document.getElementById('card-bot').classList.add('shakeAnimBot');
@@ -65,19 +65,19 @@ if(chooseEnemy == 1){
   let random = Math.floor(Math.random() * botName.length);
   var nameBot = document.getElementById("name-bot").innerHTML = botName[random];
   document.getElementById("avatar-bot").src="img/cat/defaultCat.gif";
-  document.getElementById("avatar-player").src="img/playerHero/defaultPug.gif";
+  document.getElementById("avatar-player").src="img/playerHero/defaultCorgi.gif";
 }
 if(chooseEnemy == 2){
   let random = Math.floor(Math.random() * botName.length);
   var nameBot = document.getElementById("name-bot").innerHTML = botName[random];
   document.getElementById("avatar-bot").src="img/rabbit/defaultRabbit.gif";
-  document.getElementById("avatar-player").src="img/playerHero/defaultPug.gif";
+  document.getElementById("avatar-player").src="img/playerHero/defaultCorgi.gif";
 }
 if(chooseEnemy == 3){
   let random = Math.floor(Math.random() * botName.length);
   var nameBot = document.getElementById("name-bot").innerHTML = botName[random];
   document.getElementById("avatar-bot").src="img/shiba/defaultShiba.gif";
-  document.getElementById("avatar-player").src="img/playerHero/defaultPug.gif";
+  document.getElementById("avatar-player").src="img/playerHero/defaultCorgi.gif";
 }
 
 function playGame(){
@@ -95,19 +95,19 @@ function playGame(){
     }
      if(counterBot == 2){
       document.getElementById("avatar-bot").src="img/cat/happyCat.gif";
-      document.getElementById("avatar-player").src="img/playerHero/worryPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/worryCorgi.gif";
     }
     if(counterPlayer == 2){
       document.getElementById("avatar-bot").src="img/cat/worryCat.gif";
-      document.getElementById("avatar-player").src="img/playerHero/happyPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/happyCorgi.gif";
     }
     if(counterBot == 3){
       document.getElementById("avatar-bot").src="img/cat/winCat.gif";
-      document.getElementById("avatar-player").src="img/playerHero/upsetPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/upsetCorgi.gif";
     }
     if(counterPlayer == 3){
       document.getElementById("avatar-bot").src="img/cat/upsetCat.gif";
-      document.getElementById("avatar-player").src="img/playerHero/winPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/winCorgi.gif";
     }
   }
   else if(chooseEnemy == 2){
@@ -122,19 +122,19 @@ function playGame(){
     }
     if(counterBot == 2){
       document.getElementById("avatar-bot").src="img/rabbit/happyRabbit.gif";
-      document.getElementById("avatar-player").src="img/playerHero/worryPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/worryCorgi.gif";
     }
     if(counterPlayer == 2){
       document.getElementById("avatar-bot").src="img/rabbit/worryRabbit.gif";
-      document.getElementById("avatar-player").src="img/playerHero/happyPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/happyCorgi.gif";
     }
     if(counterBot == 3){
       document.getElementById("avatar-bot").src="img/rabbit/winRabbit.gif";
-      document.getElementById("avatar-player").src="img/playerHero/upsetPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/upsetCorgi.gif";
     }
     if(counterPlayer == 3){
       document.getElementById("avatar-bot").src="img/rabbit/upsetRabbit.gif";
-      document.getElementById("avatar-player").src="img/playerHero/winPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/winCorgi.gif";
     }
   }
   else if(chooseEnemy == 3){
@@ -149,19 +149,19 @@ function playGame(){
     }
     if(counterBot == 2){
       document.getElementById("avatar-bot").src="img/shiba/happyShiba.gif";
-      document.getElementById("avatar-player").src="img/playerHero/worryPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/worryCorgi.gif";
     }
     if(counterPlayer == 2){
       document.getElementById("avatar-bot").src="img/shiba/worryShiba.gif";
-      document.getElementById("avatar-player").src="img/playerHero/happyPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/happyCorgi.gif";
     }
     if(counterBot == 3){
       document.getElementById("avatar-bot").src="img/shiba/winShiba.gif";
-      document.getElementById("avatar-player").src="img/playerHero/upsetPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/upsetCorgi.gif";
     }
     if(counterPlayer == 3){
       document.getElementById("avatar-bot").src="img/shiba/upsetShiba.gif";
-      document.getElementById("avatar-player").src="img/playerHero/winPug.gif";
+      document.getElementById("avatar-player").src="img/playerHero/winCorgi.gif";
     }
   }
 
